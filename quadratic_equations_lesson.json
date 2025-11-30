@@ -154,7 +154,7 @@
               "x − 4 = 0 → x = 4 (first solution)",
               "3x + 1 = 0 → 3x = −1 → x = −1/3 (second solution)"
             ],
-            "answers": [4, "-1/3"]
+            "answers": [4, -0.333]
           }
         }
       ],
