@@ -9,7 +9,8 @@
       "video": {
         "title": "Solving quadratics by taking square roots",
         "url": "https://www.khanacademy.org/embed_video?slug=simple-quadratic-equation",
-        "transcript_url": "/transcript/150088074"
+        "transcript_url": "/transcript/150088074",
+        "embed": "<iframe src=\"https://www.khanacademy.org/embed_video?slug=simple-quadratic-equation\" width=\"100%\" height=\"400\" frameborder=\"0\" allowfullscreen></iframe>"
       },
       "formula": {
         "name": "Square Root Method",
@@ -47,7 +48,8 @@
       "video": {
         "title": "Zero product property",
         "url": "https://www.khanacademy.org/embed_video?slug=zero-product-property",
-        "transcript_url": "/transcript/x556b284b8e003b36"
+        "transcript_url": "/transcript/x556b284b8e003b36",
+        "embed": "<iframe src=\"https://www.khanacademy.org/embed_video?slug=zero-product-property\" width=\"100%\" height=\"400\" frameborder=\"0\" allowfullscreen></iframe>"
       },
       "formula": {
         "name": "Zero Product Property",
@@ -84,7 +86,8 @@
       "video": {
         "title": "Solving quadratics by factoring",
         "url": "https://www.khanacademy.org/embed_video?slug=example-1-solving-a-quadratic-equation-by-factoring",
-        "transcript_url": "/transcript/26992"
+        "transcript_url": "/transcript/26992",
+        "embed": "<iframe src=\"https://www.khanacademy.org/embed_video?slug=example-1-solving-a-quadratic-equation-by-factoring\" width=\"100%\" height=\"400\" frameborder=\"0\" allowfullscreen></iframe>"
       },
       "formula": {
         "name": "Factoring Form",
@@ -128,7 +131,8 @@
       "video": {
         "title": "The quadratic formula",
         "url": "https://www.khanacademy.org/embed_video?slug=using-the-quadratic-formula",
-        "transcript_url": "/transcript/23724"
+        "transcript_url": "/transcript/23724",
+        "embed": "<iframe src=\"https://www.khanacademy.org/embed_video?slug=using-the-quadratic-formula\" width=\"100%\" height=\"400\" frameborder=\"0\" allowfullscreen></iframe>"
       },
       "formula": {
         "name": "Quadratic Formula",
