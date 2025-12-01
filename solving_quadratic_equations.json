@@ -1,510 +1,226 @@
 {
   "title": "Solving Quadratic Equations",
+  "subtitle": "Multiple methods to find solutions",
+  "introduction": "A quadratic equation is an equation with a variable to the second power as its highest power term. For example, in 3x² − 5x − 2 = 0: x is the variable (represents a number whose value we don't know yet), ² is the power or exponent (an exponent of 2 means the variable is multiplied by itself), 3 and −5 are the coefficients (constant multiples of x² and x), and −2 is a constant term. In this lesson, you will learn to solve quadratic equations in several different ways and determine the number of solutions to a quadratic equation without solving.",
   "methods": [
     {
-      "heading": "What are quadratic equations?",
-      "content": [
-        {
-          "paragraph": "A quadratic equation is an equation with a variable to the second power as its highest power term."
-        },
-        {
-          "example": {
-            "equation": "3x² − 5x − 2 = 0",
-            "components": [
-              {
-                "term": "x",
-                "description": "the variable, which represents a number whose value we don't know yet"
-              },
-              {
-                "term": "²",
-                "description": "the power or exponent. An exponent of 2 means the variable is multiplied by itself"
-              },
-              {
-                "term": "3 and −5",
-                "description": "the coefficients, or constant multiples of x² and x. 3x² is a single term, as is −5x"
-              },
-              {
-                "term": "−2",
-                "description": "a constant term"
-              }
-            ]
-          }
-        },
-        {
-          "learning_objectives": [
-            "Solve quadratic equations in several different ways",
-            "Determine the number of solutions to a quadratic equation without solving"
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "How do I solve quadratic equations using square roots?",
-      "subheading": "Solving quadratics by taking square roots",
+      "title": "1. Solving Quadratics by Taking Square Roots",
+      "description": "Use square roots to solve quadratic equations without x-terms.",
       "video": {
         "title": "Solving quadratics by taking square roots",
         "url": "https://www.khanacademy.org/embed_video?slug=simple-quadratic-equation",
         "transcript_url": "/transcript/150088074"
       },
-      "content": [
-        {
-          "paragraph": "Quadratic equations without x-terms such as 2x² = 32 can be solved without setting a quadratic expression equal to 0. Instead, we can isolate x² and use the square root operation to solve for x."
-        },
-        {
-          "important_note": "When solving quadratic equations by taking square roots, both the positive and negative square roots are solutions to the equation. This is because when we square a solution, the result is always positive."
-        },
-        {
-          "example": {
-            "equation": "x² = 4",
-            "solutions": [2, -2],
-            "verification": [
-              "2² = 4 ✓",
-              "(−2)² = 4 ✓"
-            ]
-          }
-        },
-        {
-          "steps": {
-            "title": "When solving quadratic equations without x-terms:",
-            "items": [
-              "Isolate x²",
-              "Take the square root of both sides of the equation. Both the positive and negative square roots are solutions."
-            ]
-          }
-        }
+      "formula": {
+        "name": "Square Root Method",
+        "equation": "If x² = k, then x = ±√k"
+      },
+      "howItWorks": "Quadratic equations without x-terms such as 2x² = 32 can be solved without setting a quadratic expression equal to 0. Instead, we can isolate x² and use the square root operation to solve for x. When solving quadratic equations by taking square roots, both the positive and negative square roots are solutions to the equation. This is because when we square a solution, the result is always positive. For example, x² = 4 has solutions x = 2 and x = −2, since 2² = 4 and (−2)² = 4.",
+      "steps": [
+        "Step 1: Isolate x² on one side of the equation.",
+        "Step 2: Take the square root of both sides of the equation.",
+        "Step 3: Include both positive and negative square roots as solutions."
       ],
-      "worked_examples": [
-        {
-          "problem": "What values of x satisfy the equation 2x² = 18?",
-          "solution": {
-            "steps": [
-              "2x² = 18",
-              "2x²/2 = 18/2",
-              "x² = 9",
-              "√(x²) = √9",
-              "x = ±3"
-            ],
-            "answer": [-3, 3]
-          }
-        }
-      ],
-      "exercises": [
-        {
-          "title": "TRY: identify the steps to solving a quadratic equation",
-          "equation": "x² − 3 = 13",
-          "questions": [
-            {
-              "type": "dropdown",
-              "prompt": "We can solve the quadratic equation above by first ___ both sides of the equation, which gives us the equation x² = 16.",
-              "answer": "adding 3 to"
-            },
-            {
-              "type": "dropdown",
-              "prompt": "Next, we can take the square root of both sides of the equation, which gives us the solution(s) ___.",
-              "answer": "x = ±4"
-            }
-          ]
-        }
-      ]
+      "example": {
+        "problem": "What values of x satisfy the equation 2x² = 18?",
+        "solution": "x = ±3",
+        "walkthrough": [
+          "Start with: 2x² = 18",
+          "Divide both sides by 2: x² = 9",
+          "Take the square root of both sides: √(x²) = √9",
+          "Include both roots: x = ±3",
+          "The solutions are x = 3 and x = −3."
+        ]
+      },
+      "exercise": {
+        "problem": "Solve the equation x² − 3 = 13. First add 3 to both sides to get x² = 16, then take the square root of both sides.",
+        "correctAnswer": {
+          "equation": "x² = 16",
+          "solutions": "x = ±4"
+        },
+        "hints": "Adding 3 to both sides gives x² = 16. The square root of 16 is 4, but remember both positive and negative roots are solutions."
+      }
     },
     {
-      "heading": "What is the zero product property, and how do I use it to solve quadratic equations?",
-      "subheading": "Zero product property",
+      "title": "2. Zero Product Property",
+      "description": "Use the zero product property to solve factored quadratic equations.",
       "video": {
         "title": "Zero product property",
         "url": "https://www.khanacademy.org/embed_video?slug=zero-product-property",
         "transcript_url": "/transcript/x556b284b8e003b36"
       },
-      "content": [
-        {
-          "definition": {
-            "term": "Zero product property",
-            "text": "The zero product property states that if ab = 0, then either a or b is equal to 0."
-          }
-        },
-        {
-          "paragraph": "The zero product property lets us solve factored quadratic equations by solving two linear equations."
-        },
-        {
-          "example": {
-            "equation": "(x − 5)(x + 2) = 0",
-            "explanation": "We know that either x − 5 = 0 or x + 2 = 0",
-            "solution": {
-              "steps": [
-                "(x − 5)(x + 2) = 0",
-                "x − 5 = 0 → x = 5 (first solution)",
-                "x + 2 = 0 → x = −2 (second solution)"
-              ],
-              "answers": [5, -2]
-            }
-          }
-        },
-        {
-          "steps": {
-            "title": "To solve a factored quadratic equation using the zero product property:",
-            "items": [
-              "Set each factor equal to 0",
-              "Solve the equations from Step 1. The solutions to the linear equations are also solutions to the quadratic equation."
-            ]
-          }
-        }
+      "formula": {
+        "name": "Zero Product Property",
+        "equation": "If ab = 0, then a = 0 or b = 0"
+      },
+      "howItWorks": "The zero product property states that if ab = 0, then either a or b is equal to 0. This lets us solve factored quadratic equations by solving two linear equations. For example, if (x − 5)(x + 2) = 0, we know that either x − 5 = 0 or x + 2 = 0, giving us x = 5 or x = −2.",
+      "steps": [
+        "Step 1: Ensure the quadratic equation is in factored form (two factors multiplied equal zero).",
+        "Step 2: Set each factor equal to 0.",
+        "Step 3: Solve each linear equation. The solutions to the linear equations are also solutions to the quadratic equation."
       ],
-      "worked_examples": [
-        {
-          "problem": "What are the solutions to the equation (x − 4)(3x + 1) = 0?",
-          "solution": {
-            "steps": [
-              "(x − 4)(3x + 1) = 0",
-              "x − 4 = 0 → x = 4 (first solution)",
-              "3x + 1 = 0 → 3x = −1 → x = −1/3 (second solution)"
-            ],
-            "answers": [4, -0.333]
-          }
-        }
-      ],
-      "exercises": [
-        {
-          "title": "TRY: use factors to determine the solutions",
-          "equation": "2x² + x − 3 = (x − 1)(2x + 3)",
-          "question": "Which of the following equations, when solved, give us the solutions to the equation 2x² + x − 3 = 0?",
-          "choices": [
-            {"label": "A", "equation": "x − 1 = 0", "correct": true},
-            {"label": "B", "equation": "x + 1 = 0", "correct": false},
-            {"label": "C", "equation": "2x − 3 = 0", "correct": false},
-            {"label": "D", "equation": "2x + 3 = 0", "correct": true}
-          ]
-        }
-      ]
+      "example": {
+        "problem": "What are the solutions to the equation (x − 4)(3x + 1) = 0?",
+        "solution": "x = 4 and x = −1/3",
+        "walkthrough": [
+          "Start with: (x − 4)(3x + 1) = 0",
+          "Set first factor equal to 0: x − 4 = 0 → x = 4",
+          "Set second factor equal to 0: 3x + 1 = 0 → 3x = −1 → x = −1/3",
+          "The solutions are x = 4 and x = −1/3."
+        ]
+      },
+      "exercise": {
+        "problem": "Given that 2x² + x − 3 = (x − 1)(2x + 3), which equations when solved give us the solutions to 2x² + x − 3 = 0?",
+        "correctAnswer": {
+          "equations": ["x − 1 = 0", "2x + 3 = 0"],
+          "solutions": "x = 1 and x = −3/2"
+        },
+        "hints": "Set each factor from the factored form equal to zero. x − 1 = 0 gives x = 1, and 2x + 3 = 0 gives x = −3/2."
+      }
     },
     {
-      "heading": "How do I solve quadratic equations by factoring?",
-      "subheading": "Solving quadratics by factoring",
+      "title": "3. Solving Quadratics by Factoring",
+      "description": "Factor quadratic expressions to find solutions.",
       "video": {
         "title": "Solving quadratics by factoring",
         "url": "https://www.khanacademy.org/embed_video?slug=example-1-solving-a-quadratic-equation-by-factoring",
         "transcript_url": "/transcript/26992"
       },
-      "content": [
-        {
-          "paragraph": "If we can write a quadratic expression as the product of two linear expressions (factors), then we can use those linear expressions to calculate the solutions to the quadratic equation."
-        },
-        {
-          "paragraph": "In this lesson, we'll focus on factorable quadratic equations with 1 as the coefficient of the x² term, such as x² − 2x − 3 = 0."
-        },
-        {
-          "factoring_criteria": {
-            "form": "(x + a)(x + b)",
-            "rules": [
-              "The sum of a and b is equal to the coefficient of the x-term in the unfactored quadratic expression",
-              "The product of a and b is equal to the constant term of the unfactored quadratic expression"
-            ]
-          }
-        },
-        {
-          "example": {
-            "equation": "x² − 2x − 3 = 0",
-            "factoring": {
-              "find_a_and_b": {
-                "sum_equals": -2,
-                "product_equals": -3,
-                "values": {"a": -3, "b": 1}
-              },
-              "verification": [
-                "−3 + 1 = −2 ✓",
-                "(−3)(1) = −3 ✓"
-              ],
-              "factored_form": "(x − 3)(x + 1) = 0",
-              "solutions": [3, -1]
-            }
-          }
-        },
-        {
-          "steps": {
-            "title": "When solving factorable quadratic equations in the form x² + bx + c = 0:",
-            "items": [
-              "Rewrite the quadratic expression as the product of two factors. The two factors are linear expressions with an x-term and a constant term. The sum of the constant terms is equal to b, and the product of the constant terms is equal to c.",
-              "Set each factor equal to 0.",
-              "Solve the equations from Step 2. The solutions to the linear equations are also solutions to the quadratic equation."
-            ]
-          }
-        }
+      "formula": {
+        "name": "Factoring Form",
+        "equation": "x² + bx + c = (x + a)(x + b) where a + b = coefficient of x, and a × b = constant term"
+      },
+      "howItWorks": "If we can write a quadratic expression as the product of two linear expressions (factors), then we can use those linear expressions to calculate the solutions. For x² + bx + c = 0, we find two numbers a and b where: the sum of a and b equals the coefficient of the x-term, and the product of a and b equals the constant term. For example, x² − 2x − 3 = 0 factors to (x − 3)(x + 1) = 0 because −3 + 1 = −2 and (−3)(1) = −3.",
+      "steps": [
+        "Step 1: Write the equation in the form x² + bx + c = 0.",
+        "Step 2: Find two numbers whose sum equals b and whose product equals c.",
+        "Step 3: Rewrite the quadratic as (x + first number)(x + second number) = 0.",
+        "Step 4: Set each factor equal to 0 and solve."
       ],
-      "worked_examples": [
-        {
-          "problem": "What are the solutions to the equation x² + 4x − 5 = 0?",
-          "solution": {
-            "find_factors": {
-              "sum_equals": 4,
-              "product_equals": -5,
-              "values": {"a": 5, "b": -1}
-            },
-            "verification": [
-              "a + b = 5 + (−1) = 4 ✓",
-              "ab = (5)(−1) = −5 ✓"
-            ],
-            "factored_form": "(x + 5)(x − 1) = 0",
-            "steps": [
-              "x² + 4x − 5 = 0",
-              "(x + 5)(x − 1) = 0",
-              "x + 5 = 0 → x = −5",
-              "x − 1 = 0 → x = 1"
-            ],
-            "answers": [-5, 1]
-          }
-        }
-      ],
-      "exercises": [
-        {
-          "title": "Try: match the equivalent quadratic expressions",
-          "type": "matching",
+      "example": {
+        "problem": "What are the solutions to the equation x² + 4x − 5 = 0?",
+        "solution": "x = −5 and x = 1",
+        "walkthrough": [
+          "We need two numbers that add to 4 and multiply to −5.",
+          "The numbers are 5 and −1 (since 5 + (−1) = 4 and 5 × (−1) = −5).",
+          "Factor: x² + 4x − 5 = (x + 5)(x − 1) = 0",
+          "Set x + 5 = 0 → x = −5",
+          "Set x − 1 = 0 → x = 1",
+          "The solutions are x = −5 and x = 1."
+        ]
+      },
+      "exercise": {
+        "problem": "Match the equivalent quadratic expressions: x² − 13x + 12, x² − 8x + 12, x² + 7x + 12, x² + 13x + 12",
+        "correctAnswer": {
           "pairs": [
             {"unfactored": "x² − 13x + 12", "factored": "(x − 12)(x − 1)"},
             {"unfactored": "x² − 8x + 12", "factored": "(x − 6)(x − 2)"},
             {"unfactored": "x² + 7x + 12", "factored": "(x + 3)(x + 4)"},
             {"unfactored": "x² + 13x + 12", "factored": "(x + 1)(x + 12)"}
           ]
-        }
-      ]
+        },
+        "hints": "For each expression, find two numbers that add to the coefficient of x and multiply to the constant term (12). Check: −12 + (−1) = −13 and −12 × −1 = 12."
+      }
     },
     {
-      "heading": "How do I use the quadratic formula?",
-      "subheading": "The quadratic formula",
+      "title": "4. The Quadratic Formula",
+      "description": "Use the quadratic formula to solve any quadratic equation.",
       "video": {
         "title": "The quadratic formula",
         "url": "https://www.khanacademy.org/embed_video?slug=using-the-quadratic-formula",
         "transcript_url": "/transcript/23724"
       },
-      "content": [
-        {
-          "paragraph": "Not all quadratic expressions are factorable, and not all factorable quadratic expressions are easy to factor. The quadratic formula gives us a way to solve any quadratic equation as long as we can plug the correct values into the formula and evaluate."
-        },
-        {
-          "formula": {
-            "name": "Quadratic Formula",
-            "for": "ax² + bx + c = 0",
-            "formula": "x = (−b ± √(b² − 4ac)) / (2a)",
-            "note": "The quadratic formula is not provided in the reference section of the SAT! You'll have to memorize the formula to use it."
-          }
-        },
-        {
-          "steps": {
-            "title": "To solve a quadratic equation using the quadratic formula:",
-            "items": [
-              "Rewrite the equation in the form ax² + bx + c = 0",
-              "Substitute the values of a, b, and c into the quadratic formula",
-              "Evaluate x"
-            ]
-          }
-        },
-        {
-          "discriminant": {
-            "definition": "The b² − 4ac portion of the quadratic formula is called the discriminant.",
-            "rules": [
-              {
-                "condition": "b² − 4ac > 0",
-                "result": "the equation has two real solutions"
-              },
-              {
-                "condition": "b² − 4ac = 0",
-                "result": "the equation has one real solution (x = −b/(2a))"
-              },
-              {
-                "condition": "b² − 4ac < 0",
-                "result": "the equation has no real solutions (imaginary solutions)"
-              }
-            ]
-          }
-        },
-        {
-          "discriminant_examples": [
-            {
-              "equation": "x² − 6x − 9 = 0",
-              "coefficients": {"a": 1, "b": -6, "c": -9},
-              "discriminant_calculation": "(−6)² − 4(1)(−9) = 36 − (−36) = 72",
-              "discriminant_value": 72,
-              "discriminant_sign": "positive",
-              "number_of_solutions": 2
-            },
-            {
-              "equation": "x² − 6x + 9 = 0",
-              "coefficients": {"a": 1, "b": -6, "c": 9},
-              "discriminant_calculation": "(−6)² − 4(1)(9) = 36 − 36 = 0",
-              "discriminant_value": 0,
-              "discriminant_sign": "zero",
-              "number_of_solutions": 1
-            },
-            {
-              "equation": "2x² − 6x + 9 = 0",
-              "coefficients": {"a": 2, "b": -6, "c": 9},
-              "discriminant_calculation": "(−6)² − 4(2)(9) = 36 − 72 = −36",
-              "discriminant_value": -36,
-              "discriminant_sign": "negative",
-              "number_of_solutions": 0
-            }
-          ]
-        }
+      "formula": {
+        "name": "Quadratic Formula",
+        "equation": "For ax² + bx + c = 0: x = (−b ± √(b² − 4ac)) / (2a)"
+      },
+      "howItWorks": "Not all quadratic expressions are factorable, and not all factorable quadratic expressions are easy to factor. The quadratic formula gives us a way to solve any quadratic equation as long as we can plug the correct values into the formula and evaluate. Note: The quadratic formula is not provided on the SAT — you must memorize it!",
+      "steps": [
+        "Step 1: Rewrite the equation in the form ax² + bx + c = 0.",
+        "Step 2: Identify the values of a, b, and c.",
+        "Step 3: Substitute a, b, and c into the quadratic formula: x = (−b ± √(b² − 4ac)) / (2a)",
+        "Step 4: Simplify to find the solutions."
       ],
-      "worked_examples": [
-        {
-          "problem": "What are the solutions to the equation x² − 6x = 9?",
-          "solution": {
-            "rewrite": {
-              "original": "x² − 6x = 9",
-              "standard_form": "x² − 6x − 9 = 0"
-            },
-            "identify_coefficients": {
-              "a": 1,
-              "b": -6,
-              "c": -9
-            },
-            "substitution": "x = (−(−6) ± √((−6)² − 4(1)(−9))) / (2(1))",
-            "simplification": [
-              "x = (6 ± √(36 − (−36))) / 2",
-              "x = (6 ± √72) / 2",
-              "x = (6 ± √(36·2)) / 2",
-              "x = (6 ± 6√2) / 2",
-              "x = 3 ± 3√2"
-            ],
-            "answers": ["3 − 3√2", "3 + 3√2"]
-          }
-        }
-      ],
-      "exercises": [
-        {
-          "title": "Try: set up for the quadratic formula",
-          "equation": "7x² + 6x − 1 = 0",
-          "type": "fill_in",
-          "questions": [
-            {"prompt": "a =", "answer": 7},
-            {"prompt": "b =", "answer": 6},
-            {"prompt": "c =", "answer": -1}
-          ]
-        },
-        {
-          "title": "Try: use the discriminant to find the number of solutions",
-          "equation": "7x² + 6x − 1 = 0",
-          "type": "fill_in_and_dropdown",
-          "questions": [
-            {"prompt": "The value of the discriminant for the quadratic equation above is", "answer": 64},
-            {"prompt": "Because the discriminant is", "options": ["positive", "negative", "zero"], "answer": "positive"},
-            {"prompt": "the equation has", "options": ["0 real solutions", "1 real solution", "2 real solutions"], "answer": "2 real solutions"}
-          ]
-        },
-        {
-          "title": "Try: substitute into the quadratic formula",
-          "equation": "7x² + 6x − 1 = 0",
-          "type": "multiple_choice",
-          "question": "Which of the following expressions, when evaluated, gives the solutions to the equation above?",
-          "choices": [
-            {"label": "A", "expression": "(−6 ± √(6² − 4(7)(−1))) / (2(7))", "correct": true},
-            {"label": "B", "expression": "(−6 ± √(6² − 4(7)(1))) / (2(7))", "correct": false},
-            {"label": "C", "expression": "(−6 ± √(6² − 4(7)(−1))) / 7", "correct": false},
-            {"label": "D", "expression": "(6 ± √(6² − 4(7)(−1))) / (2(7))", "correct": false}
-          ]
-        }
-      ]
-    },
-    {
-      "heading": "Your turn!",
-      "exercises": [
-        {
-          "title": "Practice: Solve quadratic equation using square root",
-          "problem": "If (1/2)x² = 32 and x > 0, what is the value of x?",
-          "type": "fill_in",
-          "answer": 8
-        },
-        {
-          "title": "Practice: Solve quadratic equation by factoring",
-          "equation": "x² + x − 56 = 0",
-          "type": "multiple_choice",
-          "question": "What are the solutions to the equation above?",
-          "choices": [
-            {"label": "A", "answer": "x = −14 and x = 4", "correct": false},
-            {"label": "B", "answer": "x = −8 and x = 7", "correct": true},
-            {"label": "C", "answer": "x = −7 and x = 8", "correct": false},
-            {"label": "D", "answer": "x = −6 and x = 5", "correct": false}
-          ]
-        },
-        {
-          "title": "Practice: Solve quadratic equation with the quadratic formula",
-          "equation": "−3x² + 12x + 4 = 0",
-          "type": "multiple_choice",
-          "question": "Which of the following values of x satisfy the equation?",
-          "choices": [
-            {"label": "A", "answer": "0", "correct": false},
-            {"label": "B", "answer": "−2 and 2", "correct": false},
-            {"label": "C", "answer": "2 − (2√6)/3 and 2 + (2√6)/3", "correct": true},
-            {"label": "D", "answer": "2 − (4√3)/3 and 2 + (4√3)/3", "correct": false}
-          ]
-        },
-        {
-          "title": "Practice: Determine the condition for one real solution",
-          "problem": "If ax² + 8x + 1 = 0, for what value of a does the equation have exactly one real solution?",
-          "type": "fill_in",
-          "answer": 16
-        }
-      ],
-      "quiz": [
-        {
-          "title": "Practice: Solve quadratic equation using square root",
-          "problem": "If (1/2)x² = 32 and x > 0, what is the value of x?",
-          "type": "fill_in",
-          "answer": 8
-        },
-        {
-          "title": "Practice: Solve quadratic equation by factoring",
-          "equation": "x² + x − 56 = 0",
-          "type": "multiple_choice",
-          "question": "What are the solutions to the equation above?",
-          "choices": [
-            {"label": "A", "answer": "x = −14 and x = 4", "correct": false},
-            {"label": "B", "answer": "x = −8 and x = 7", "correct": true},
-            {"label": "C", "answer": "x = −7 and x = 8", "correct": false},
-            {"label": "D", "answer": "x = −6 and x = 5", "correct": false}
-          ]
-        },
-        {
-          "title": "Practice: Solve quadratic equation with the quadratic formula",
-          "equation": "−3x² + 12x + 4 = 0",
-          "type": "multiple_choice",
-          "question": "Which of the following values of x satisfy the equation?",
-          "choices": [
-            {"label": "A", "answer": "0", "correct": false},
-            {"label": "B", "answer": "−2 and 2", "correct": false},
-            {"label": "C", "answer": "2 − (2√6)/3 and 2 + (2√6)/3", "correct": true},
-            {"label": "D", "answer": "2 − (4√3)/3 and 2 + (4√3)/3", "correct": false}
-          ]
-        },
-        {
-          "title": "Practice: Determine the condition for one real solution",
-          "problem": "If ax² + 8x + 1 = 0, for what value of a does the equation have exactly one real solution?",
-          "type": "fill_in",
-          "answer": 16
-        }
-      ]
-    },
-    {
-      "heading": "Things to remember",
-      "summary": {
-        "formula": {
-          "for": "ax² + bx + c = 0",
-          "quadratic_formula": "x = (−b ± √(b² − 4ac)) / (2a)"
-        },
-        "discriminant_rules": [
-          {
-            "condition": "b² − 4ac > 0",
-            "result": "2 unique real solutions"
-          },
-          {
-            "condition": "b² − 4ac = 0",
-            "result": "1 unique real solution"
-          },
-          {
-            "condition": "b² − 4ac < 0",
-            "result": "no real solution"
-          }
+      "example": {
+        "problem": "What are the solutions to the equation x² − 6x = 9?",
+        "solution": "x = 3 − 3√2 and x = 3 + 3√2",
+        "walkthrough": [
+          "Rewrite in standard form: x² − 6x − 9 = 0",
+          "Identify coefficients: a = 1, b = −6, c = −9",
+          "Substitute into formula: x = (−(−6) ± √((−6)² − 4(1)(−9))) / (2(1))",
+          "Simplify: x = (6 ± √(36 + 36)) / 2",
+          "Continue: x = (6 ± √72) / 2 = (6 ± 6√2) / 2",
+          "Final answer: x = 3 ± 3√2"
         ]
+      },
+      "exercise": {
+        "problem": "For the equation 7x² + 6x − 1 = 0, identify a, b, c, calculate the discriminant, and write the quadratic formula expression.",
+        "correctAnswer": {
+          "coefficients": {"a": 7, "b": 6, "c": -1},
+          "discriminant": 64,
+          "formula_expression": "(−6 ± √(6² − 4(7)(−1))) / (2(7))"
+        },
+        "hints": "a is the coefficient of x², b is the coefficient of x, c is the constant. The discriminant is b² − 4ac = 36 − (−28) = 64."
+      }
+    },
+    {
+      "title": "5. The Discriminant",
+      "description": "Use the discriminant to determine the number of solutions without solving.",
+      "formula": {
+        "name": "Discriminant",
+        "equation": "Discriminant = b² − 4ac"
+      },
+      "howItWorks": "The b² − 4ac portion of the quadratic formula is called the discriminant. It tells us how many real solutions the equation has: If b² − 4ac > 0, the equation has two real solutions. If b² − 4ac = 0, the equation has one real solution (x = −b/(2a)). If b² − 4ac < 0, the equation has no real solutions (only imaginary solutions).",
+      "steps": [
+        "Step 1: Write the equation in standard form ax² + bx + c = 0.",
+        "Step 2: Identify a, b, and c.",
+        "Step 3: Calculate the discriminant: b² − 4ac.",
+        "Step 4: Determine the number of solutions based on whether the discriminant is positive, zero, or negative."
+      ],
+      "example": {
+        "problem": "Determine the number of solutions for each equation: x² − 6x − 9 = 0, x² − 6x + 9 = 0, and 2x² − 6x + 9 = 0",
+        "solution": "2 solutions, 1 solution, and 0 real solutions respectively",
+        "walkthrough": [
+          "For x² − 6x − 9 = 0: discriminant = (−6)² − 4(1)(−9) = 36 + 36 = 72 > 0 → 2 solutions",
+          "For x² − 6x + 9 = 0: discriminant = (−6)² − 4(1)(9) = 36 − 36 = 0 → 1 solution",
+          "For 2x² − 6x + 9 = 0: discriminant = (−6)² − 4(2)(9) = 36 − 72 = −36 < 0 → 0 real solutions"
+        ]
+      },
+      "exercise": {
+        "problem": "For 7x² + 6x − 1 = 0, find the discriminant value and determine how many real solutions the equation has.",
+        "correctAnswer": {
+          "discriminant": 64,
+          "sign": "positive",
+          "numberOfSolutions": "2 real solutions"
+        },
+        "hints": "Calculate b² − 4ac = 6² − 4(7)(−1) = 36 + 28 = 64. Since 64 > 0, there are 2 real solutions."
       }
     }
-  ]
+  ],
+  "quiz": {
+    "title": "Solving Quadratic Equations Quiz",
+    "questions": [
+      {
+        "problem": "If (1/2)x² = 32 and x > 0, what is the value of x?",
+        "correctMethod": "x = 8",
+        "explanation": "Multiply both sides by 2 to get x² = 64. Take the square root: x = ±8. Since x > 0, x = 8."
+      },
+      {
+        "problem": "What are the solutions to x² + x − 56 = 0?",
+        "correctMethod": "x = −8 and x = 7",
+        "explanation": "Factor: find two numbers that add to 1 and multiply to −56. Those are 8 and −7. So (x + 8)(x − 7) = 0, giving x = −8 and x = 7."
+      },
+      {
+        "problem": "Which values of x satisfy −3x² + 12x + 4 = 0?",
+        "correctMethod": "x = 2 − (2√6)/3 and x = 2 + (2√6)/3",
+        "explanation": "Using the quadratic formula with a = −3, b = 12, c = 4: x = (−12 ± √(144 + 48)) / (−6) = (−12 ± √192) / (−6) = (−12 ± 8√3) / (−6). Simplify to get x = 2 ± (2√6)/3."
+      },
+      {
+        "problem": "If ax² + 8x + 1 = 0 has exactly one real solution, what is the value of a?",
+        "correctMethod": "a = 16",
+        "explanation": "For exactly one solution, the discriminant must equal 0. So b² − 4ac = 0, which means 64 − 4a(1) = 0. Solving: 64 = 4a, so a = 16."
+      }
+    ]
+  },
+  "conclusion": "For ax² + bx + c = 0, use the quadratic formula: x = (−b ± √(b² − 4ac)) / (2a). The discriminant (b² − 4ac) tells you the number of solutions: if positive, 2 unique real solutions; if zero, 1 unique real solution; if negative, no real solutions."
 }
